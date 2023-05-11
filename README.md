@@ -15,8 +15,12 @@ What we are going to use:
 ## Description of files
   
   config.py - pathes to any files that are going to be used and any aditional configs
+  
   imports.py - all imports used for the code
+  
   loading_data.py - code that is used for loading all json data in the database
+  
   main.ipynb - Jupiter Noutbook with the main code where we define functions and runing the main code
+  
   trial_string_file.json - test json files for the code
   
