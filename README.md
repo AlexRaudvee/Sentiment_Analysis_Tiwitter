@@ -20,7 +20,10 @@ What we are going to use:
   
   loading_data.py - code that is used for loading all json data in the database
   
+  visualizations.ipynb - code for visualizations
+  
   main.ipynb - Jupiter Noutbook with the main code where we define functions and runing the main code
   
   trial_string_file.json - test json files for the code
+  
   
