@@ -10,7 +10,7 @@ What we are going to use:
     Ask the link from Ansat
   4. Telegram (communication) 
     To be added in the group chat, text +34 699 840 177 !
-
+  # AND DO NOT FORGET TO PULL INFO FROM GITHUB!!! AND AS WELL PUSH AFTER U FINISHED
 
 ## Description of files
   
@@ -32,4 +32,5 @@ What we are going to use:
   
   trial_string_file.json - test json files for the code
   
+ 
   
