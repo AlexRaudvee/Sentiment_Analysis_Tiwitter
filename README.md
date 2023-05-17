@@ -18,6 +18,12 @@ What we are going to use:
   
   imports.py - all imports used for the code
   
+  create_database.ipynb - file where we create the database
+  
+  retriving_data.ipynb - in this file we exploring the data that we have
+  
+  sentiment_analysis.ipynb - in this file we provide sentiment analisis on Tweets
+  
   loading_data.py - code that is used for loading all json data in the database
   
   visualizations.ipynb - code for visualizations
