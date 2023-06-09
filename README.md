@@ -13,24 +13,23 @@ What we are going to use:
   #  DO NOT FORGET TO PULL INFO FROM GITHUB!!! AND AS WELL PUSH AFTER YOU HAVE FINISHED
 
 ## Description of files
-  
-  config.py - pathes to any files that are going to be used and any aditional configs
-  
-  imports.py - all imports used for the code
-  
-  create_database.ipynb - file where we create the database
+      
+  create_database.ipynb - file where we create the database and loading the data in the database
   
   retriving_data.ipynb - in this file we exploring the data that we have
   
   sentiment_analysis.ipynb - in this file we provide sentiment analisis on Tweets
+    
+  sentiment_analysis_vis.ipynb - code for visualizations about sentiment analysis
   
-  loading_data.py - code that is used for loading all json data in the database
+  main_visualisations.ipynb - Jupiter Noutbook with the main code for first and main visualisations
   
-  visualizations.ipynb - code for visualizations
+  accuracy_of_the_model.ipynb - file with code for measusring the accuracy of the model that we use
   
-  main.ipynb - Jupiter Noutbook with the main code where we define functions and runing the main code
+  get_conversations.ipynb - file with code for getting conversations and storing them in csv file 
   
-  trial_string_file.json - test json files for the code
+  sentiment_on_conversations_pre.ipynb - file with code for preprocessing the data for future sentiment analysis on conversations
   
+  sentiment_on_conversations_vis.ipynb - file with the code for visualisations about sentiment analysis on conversations 
  
   
