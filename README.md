@@ -1,16 +1,18 @@
-# Sentiment Analysis on Avia Companies from Tweets
+# DBL Data chalenge Group-24
+Good day guys,
+This is going to be our space where we are going to work on programing part together!
 
-This project revolves around the question of how to compare the performance of airlines when they use Twitter as a communication channel. The dataset we are analyzing consists of a large number of tweets from several airlines, and we asked, in a role-playing game, to analyze the data for one of our clients. Our client is one out of several possible airlines, the assigned airline is interested in assessing their performance when using Twitter as a communication channel. They are interested in comparing their performance to other airlines in general and an assigned competitor airline in particular. Our airline will be represented by an airline marketeer. The marketeer wonders whether their Twitter team is doing a good job and whether this is useful for the company, particularly in comparison to the competitor airline.
+Here we will have to submit files with all code that we used for the entire work process.
+What we are going to use:
+  1. Python (coding, preferably version higher than 3.9)
+  2. SQLite 
+  3. Notion (for making notes)
+    Ask the link from Ansat
+  4. Telegram (communication) 
+    To be added in the group chat, text +34 699 840 177 !
+  #  DO NOT FORGET TO PULL INFO FROM GITHUB!!! AND AS WELL PUSH AFTER YOUR CHANGES IN THE CODE!!!
 
-Our Client: EasyJet
-
-Our Competitor: British Airways
-
-## About The Data
-
-All the data can be found [here](https://surfdrive.surf.nl/files/index.php/s/Dz082kih8yMGB5P), given dataset is represented as multiple json files containing the information about posted tweets, during the project this raw data were loaded and saved in the database usin SQLite
-
-## Files Discription
+## Description of files
       
   create_database.ipynb - file where we create the database and loading the data in the database
   
@@ -39,11 +41,6 @@ All the data can be found [here](https://surfdrive.surf.nl/files/index.php/s/Dz0
   difference_sen_resp_vis.ipynb - file used for additional visualisation to confirm our thoughts and used in one of the previous files 
   
   change_of_sentiment_in_convs.ipynb - file used to discover how sentiment changes during the conversation, later on used in one of the previous files
-
-
-## How To Run
-
-
   
   ONNX_SENTIMENT.ipynb - code that have been used for providing the sentiment analysis on the whole set of tweets, then scrip have been used to store the data from the csvs to the database
   
