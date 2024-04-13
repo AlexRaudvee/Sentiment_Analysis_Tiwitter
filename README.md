@@ -1,5 +1,8 @@
 # DBL Data chalenge Group-24
 
+## Data that were used
+
+All the data can be found [here](https://surfdrive.surf.nl/files/index.php/s/Dz082kih8yMGB5P), given dataset is represented as multiple json files containing the information about posted tweets, during the project this raw data were loaded and saved in the database usin SQLite
 
 ## Description of files
       
