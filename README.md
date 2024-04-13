@@ -1,10 +1,10 @@
 # DBL Data chalenge Group-24
 
-## Data that were used
+## About The Data
 
 All the data can be found [here](https://surfdrive.surf.nl/files/index.php/s/Dz082kih8yMGB5P), given dataset is represented as multiple json files containing the information about posted tweets, during the project this raw data were loaded and saved in the database usin SQLite
 
-## Description of files
+## Files Discription
       
   create_database.ipynb - file where we create the database and loading the data in the database
   
@@ -33,6 +33,11 @@ All the data can be found [here](https://surfdrive.surf.nl/files/index.php/s/Dz0
   difference_sen_resp_vis.ipynb - file used for additional visualisation to confirm our thoughts and used in one of the previous files 
   
   change_of_sentiment_in_convs.ipynb - file used to discover how sentiment changes during the conversation, later on used in one of the previous files
+
+
+## How To Run
+
+
   
   ONNX_SENTIMENT.ipynb - code that have been used for providing the sentiment analysis on the whole set of tweets, then scrip have been used to store the data from the csvs to the database
   
