@@ -6,7 +6,15 @@ Our client is EasyJet company
 
 Our competitor is British Airways
 
-## Learning Goals of this project
+## Table of Contents
+
+- [Learning Goals of Project](#Learning-Goals-of-Project)
+- [Data](#The-Data)
+- [Files Description](#Files)
+- [How To Run](#How-to-Run)
+
+
+## Learning Goals of Project 
 
 - independently apply and follow established data science research methods for a given problem and dataset,
 - access, process, and reason about a large, complex dataset given in various data formats,
