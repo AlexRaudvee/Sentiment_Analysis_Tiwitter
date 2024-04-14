@@ -25,7 +25,7 @@ Our competitor is British Airways
 
 ## The Data
 The data can be download from [this](https://surfdrive.surf.nl/files/index.php/s/Dz082kih8yMGB5P) link.
-And you can find more details [here](documnetation/Data_Description.pdf).
+And you can find more details [here](documentation/Data_Description.pdf).
 
 Given dataset represented in json files, later through our code it is stored in the database with SQLite
 
