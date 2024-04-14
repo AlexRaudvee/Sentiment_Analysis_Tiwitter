@@ -15,42 +15,72 @@ Our competitor is British Airways
 - independently validate results of their own and other student’s analyses using scientific techniques,
 - solve a large data science task in a larger group of 6 students, and present their analysis and their findings in a presentation/poster suitable for a given audience.
 
-## 
+## The Data
 The data can be download from [this](https://surfdrive.surf.nl/files/index.php/s/Dz082kih8yMGB5P) link.
 And you can find more details [here](documnetation/Data_Description.pdf).
-In this document Download this document, you can also find some tips about tools available that could help your group. Please note that this is the opinion of the teachers and you can still choose any other tool that you think it will give you any advantage.
 
-## Description of files
-      
-create_database.ipynb - file where we create the database and loading the data in the database
+Given dataset represented in json files, later through our code it is stored in the database with SQLite
 
-retriving_data.ipynb - in this file we exploring the data that we have
+## Files
 
-sentiment_analysis.ipynb - in this file we provide sentiment analisis on Tweets
-  
-sentiment_analysis_vis.ipynb - code for visualizations about sentiment analysis
+##### Data Exploration folder:
+  - `data_collection_DB_creation.py` - collects the data from the json files does small preprocessing and stores the data in the database.
+  - `get_conversations_geo.py` - from the database retrieves the conversations and in addition we retrieve the geo location of tweets if its available.
+  - `get_reply_percentage.ipynb` - in this file we retrieve additional statistics which is going to be used in poster.
 
-main_visualisations.ipynb - Jupiter Noutbook with the main code for first and main visualisations
+##### Sentiment Analysis folder:
+  - `accuracy_of_the_model.ipynb` - in given file we estimate the accuracy of the model on our dataset.
+  - `change_of_sentiment_in_conv.ipynb` - in given file we estimate the change of sentiment after company replies on the tweets of users.
+  - `ONNX_SENTIMENT.ipynb` - given file represents our approach of applying sentiment extraction from tweets (we used ROBERTA model which is pre-trained on twitter data already)
+  - `sentiment_analysis.ipynb` - in this file we provide more experiments and primary work with the model which extracts sentiment of the twits.
+  - `sentiment_on_conversations_pre.ipynb` - this file contains the script for extracting sentiment of conversations.
 
-accuracy_of_the_model.ipynb - file with code for measusring the accuracy of the model that we use
+##### Visualizations folder:
 
-get_conversations.ipynb - file with code for getting conversations and storing them in csv file 
+  - `difference_sen_resp_vis.ipynb` - in this file we represent the visualizations of how sentiment changes inside the conversations.
+  - `main_visualizations.ipynb` - in this file we made the basic visualizations about data exploration part.
+  - `poster_vis.ipynb` - this file contains all visualizations that were used in our poster.
+  - `sentiment_analysis_vis.ipynb` - this file contains all visualizations about sentiment of tweets.
+  - `sentiment_on_conversations_vis.ipynb` - this file contains all visualizations about sentiment inside the conversations and how it is changing.
 
-sentiment_on_conversations_pre.ipynb - file with code for preprocessing the data for future sentiment analysis on conversations (not used)
+##### Documentation folder: 
+In given folder we store all the pdf files which can be used to dipper understand the data.
 
-sentiment_on_conversations_vis.ipynb - file with the code for visualisations about sentiment analysis on conversations (not used)
+##### Main files
+- `accuracy_check.json` - this file contains small sample of original dataset that were given.
 
-poster_vis.ipynb - the file that we use for the demo, it generates the plots that we use in the poster for specific time period 
+- `config.py` - this is configuration file where you have to change the path to the data folders and ect.
 
-get_reply_percentage.ipynb - the code used for further analysis, later on this code was used in one of the previous files
+## How to Run
 
-get_geo.ipynb - file used for analysis and exploring the data about geolocations that are avaliable and how can we use them, later on was used in one of the previous files 
+##### For macOS and Linux:
+1. Clone the repository:
+`git clone https://github.com/AlexRaudvee/Sentiment_Analysis_Tiwitter` 
+2. Navigate to the project directory:
+`cd repository`
 
-difference_sen_resp_vis.ipynb - file used for additional visualisation to confirm our thoughts and used in one of the previous files 
+3. Create a virtual environment (optional but recommended):
+`python3 -m venv venv`
 
-change_of_sentiment_in_convs.ipynb - file used to discover how sentiment changes during the conversation, later on used in one of the previous files
+4. Activate the virtual environment:
+`source venv/bin/activate`
 
-ONNX_SENTIMENT.ipynb - code that have been used for providing the sentiment analysis on the whole set of tweets, then scrip have been used to store the data from the csvs to the database
+5. Install the required dependencies:
+`pip install -r requirements.txt`
+##### For Windows:
+
+1. Clone the repository:
+`git clone https://github.com/AlexRaudvee/Sentiment_Analysis_Tiwitter`
+2. Navigate to the project directory:
+`cd repository`
+3. Create a virtual environment (optional but recommended):
+`python -m venv venv`
+4. Activate the virtual environment:
+`.\venv\Scripts\activate`
+5. Install the required dependencies:
+`pip install -r requirements.txt`
 
 
+##### If you do not want to clone the repository
+In case if you struggle with cloning the repository, you can download the repository via the link above the code, after you did download the repository you can set up your environment with this same instructions as provided above starting from point 3.
 
